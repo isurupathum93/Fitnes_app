@@ -10,4 +10,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    private void Loading(String loading) {
+        System.out.println("loading.....");
+    }
 }
